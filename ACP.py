@@ -114,9 +114,9 @@ ax.set_xlim(-1.1, 1.1)
 ax.set_ylim(-1.1, 1.1)
 
 ax.quiver(np.zeros(len(numeric_cols)), np.zeros(len(numeric_cols)),
-           var_coords[:,0], var_coords[:,1],
-           angles='xy', scale_units='xy', scale=1,
-           color="steelblue", width=0.005)
+        var_coords[:,0], var_coords[:,1],
+        angles='xy', scale_units='xy', scale=1,
+        color="steelblue", width=0.005)
 
 for i, var in enumerate(numeric_cols):
     ax.text(var_coords[i,0]*1.1, var_coords[i,1]*1.1, var,
