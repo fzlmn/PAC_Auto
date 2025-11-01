@@ -95,3 +95,28 @@ python analyse_acp.py
 
 
 Observe les sorties dans la console et les graphiques générés.
+
+## 🖼️ Résultats visuels
+
+### 1. Représentation des individus (voitures)
+Voici la projection des individus sur les deux premières composantes principales :
+
+<img width="1800" height="950" alt="image" src="https://github.com/user-attachments/assets/58868b4a-9c13-4e67-9bbc-ddc25ccad702" />
+
+
+---
+
+### 2. Cercle des corrélations (variables)
+Représentation des variables dans le cercle des corrélations :
+
+<img width="1800" height="950" alt="image" src="https://github.com/user-attachments/assets/b9cf4cfc-ca40-4294-b9a3-11e3aa245585" />
+
+
+---
+
+### 3. Résumé des résultats dans le terminal
+Exemple de sortie texte avec les valeurs propres, les contributions et les scores :
+
+<img width="1550" height="600" alt="image" src="https://github.com/user-attachments/assets/db3087e0-5b3c-4844-850e-bfed7708207d" />
+
+
